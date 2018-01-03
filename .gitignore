@@ -3,3 +3,5 @@
 *.gz
 *.pdf
 *.Rhistory
+*.out
+.DS_Store
