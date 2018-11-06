@@ -1,4 +1,4 @@
-\documentclass[11pt,english]{article}
+\documentclass[10pt,english]{article}
 \usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
 \usepackage[a4paper]{geometry}
@@ -25,6 +25,10 @@
 \usepackage{babel}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{longtable}
+%\usepackage{scrextend}
+\usepackage{ltxtable} % To combine the features of the tabularx environment and the longtable environment (allow publications tablularx to go to more than 1 page)
 
 \makeatother
 
@@ -40,482 +44,469 @@
 
 \begin{document}
 \begin {center}
-{\huge Michael J Koontz}\tabularnewline
+{\huge Michael J. Koontz}\tabularnewline
 \vspace{1em}
 
-\begin{tabular}{>{\raggedright}p{3in}>{\raggedleft}p{3in}}
-PhD Candidate & Graduate Group in Ecology\tabularnewline
-mikoontz@gmail.com & University of California, Davis\tabularnewline
-Phone: 410.370.1815 & Davis, CA 95616\tabularnewline
-\end{tabular}
-www.michaeljkoontz.weebly.com
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}X >{\raggedleft}X@{}}
+Ph.D. Candidate & Graduate Group in Ecology \tabularnewline
+mikoontz@gmail.com & University of California, Davis \tabularnewline
+Phone: 410.370.1815 & Davis, CA 95616 
+\end{tabularx}
+
+\url{https://www.michaeljkoontz.weebly.com}
 \end{center}
 \vspace{-1.5em}
 
-\rule[0.5ex]{1\columnwidth}{0.5pt}
+\rule[0.5ex]{1\linewidth}{0.5pt} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \vspace{0.5ex}
-\subsubsection*{EDUCATION}
+\subsubsection*{\textsc{Education}}
 \vspace{-0.5ex}
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-PhD, Ecology (expected 2019) & University of California, Davis\tabularnewline
-\end{tabular}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+Ph.D., Ecology; University of California, Davis & 2014 - 2019 \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Committee:} Andrew Latimer, Malcolm North, Connie Millar & (expected)  \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Dissertation:} The effect of vegetation spatial structure on forest resilience to wildfire and bark beetle disturbance in the Sierra Nevada, California & \tabularnewline
+\end{tabularx}
 
-\hspace{1.0em}
-\begin{tabular}{p{6in}p{0in}}
-\emph{Committee:} Andrew Latimer, Malcolm North, Connie Millar & \tabularnewline
-\emph{Dissertation:} Effect of vegetation structure on forest resilience to wildfire and bark beetle disturbance in the Sierra Nevada &
-\end{tabular}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+M.Sc., Ecology; Colorado State University & 2012 - 2014 \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Committee:} Ruth Hufbauer, Tom Hobbs, Brett Melbourne & \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Thesis:} The eco-evolutionary consequences of multiple introductions for colonizing individuals & \tabularnewline
+\end{tabularx}
 
-\vspace{0.5ex}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+B.Sc. with highest honors, Biology; University of Hawaii at Hilo & 2007 - 2009 \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Concentration:} Ecology, Evolution, and Conservation Biology
+\end{tabularx}
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-MSc, Ecology (2014) & Colorado State University\tabularnewline
-\end{tabular}
-
-\hspace{1.0em}
-\begin{tabular}{p{6in}p{0in}}
-\emph{Committee:} Ruth Hufbauer, Tom Hobbs, Brett Melbourne & \tabularnewline
-\emph{Thesis:} Eco-evolutionary consequences of multiple introductions for colonizing individuals &
-\end{tabular}
-
-\vspace{0.5ex}
-
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-BSc with highest honors, Biology (2009) & University of Hawaii at Hilo\tabularnewline
-\end{tabular}
-
-\hspace{1.0em}
-\begin{tabular}{p{6in}p{0in}}
-\emph{Concentration:} Ecology, Evolution, and Conservation Biology &
-\end{tabular}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\vspace{1.5ex}
-\subsubsection*{FELLOWSHIPS}
-\vspace{-0.5ex}
-
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2015 - 2019 & Plant Sciences Departmental Graduate Student Research Award (\$185,803)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2014 - 2016 & UC Davis Graduate Group in Ecology Fellowship (\$58,172)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{3.5in}}
-%2013 - 2018 & NSF Graduate Research Fellowship (\$132,000)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{3.5in}}
-%2012 & Colorado State Graduate Fellowship (\$1,500)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{3.5in}}
-%2012 & Colorado State PRSE Fellowship (\$2,339)
-%\end{tabular}
-
-%%
-
-\begin{tabular}{>{\raggedright}p{5.2in}>{\raggedleft}p{0.8in}}
-Plant Sciences Departmental Graduate Student Research Award (\$185,803) & 2015 - 2019
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-UC Davis Graduate Group in Ecology Fellowship (\$58,172) & 2014 - 2016
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-NSF Graduate Research Fellowship (\$132,000) & 2013 - 2018
-\end{tabular}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\vspace{1.5ex}
-\subsubsection*{PUBLICATIONS}
-\vspace{-0.5ex}
-
-\begin{hangparas}{.5in}{1}
-
-\hspace{0.575em}\textbf{Koontz, Michael J.}, Meagan F. Oldfather, Brett A. Melbourne, and Ruth A. Hufbauer. 2018. Parsing propagule pressure: Number, not size, of introductions drives colonization success in a novel environment. Ecology and Evolution. 8 (16): 8043-8054. doi: 10.1002/ece3.4226
-
-\hspace{0.575em}Steel, Zachary L., \textbf{Michael J. Koontz}, Hugh D. Safford. 2018. The changing landscape of wildfire: Burn pattern trends and implications for California's yellow pine and mixed conifer forests. Landscape Ecology. 33 (7): 1159-1176. doi: 10.1007/s10980-018-0665-5
-
-\hspace{0.575em}Oldfather, Meagan F., Matthew N. Britton, Prahlad D. Papper, \textbf{Michael J. Koontz}, Michelle M. Halbur, Celeste Dodge, Alan L. Flint, Lorraine E. Flint, and David D. Ackerly. 2016. Effects of topoclimatic complexity on the composition of woody plant communities. AoB Plants. 8: plw049. doi: 10.1093/aobpla/plw049
-
-\hspace{0.575em}Hufbauer, Ruth A., Marianna Sz\"ucs, Emily Kasyon, Courtney Youngberg, \textbf{Michael J. Koontz}, Christopher Richards, Ty Tuff, Brett A. Melbourne. 2015. Reply to Wootton and Pfister: The search for general context should include synthesis with laboratory model systems. Proceedings of the National Academy of Sciences. 112 (44): E5904. doi: 10.1073/pnas.1517210112
-
-\hspace{0.575em}Hufbauer, Ruth A., Marianna Sz\"ucs, Emily Kasyon, Courtney Youngberg, \textbf{Michael J. Koontz}, Christopher Richards, T. Tuff, Brett A. Melbourne. 2015. Three types of rescue can avert extinction in a changing environment. Proceedings of the National Academy of Sciences. 112 (33): 10557-10562. doi: 10.1073/pnas.1504732112 
-
-\hspace{0.575em}Cole, Rebecca J., Creighton M. Litton, \textbf{Michael J. Koontz}, and Rhonda K. Loh. 2012. Vegetation recovery 16 years after feral pig removal from
-a wet Hawaiian forest. Biotropica. 44: 463-471. doi: 10.1111/j.1744-7429.2011.00841.x
-
-\end{hangparas}
 \vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{1.5ex}
-\subsubsection*{COLLABORATIVE LESSON DEVELOPMENT}
+
+\subsubsection*{\textsc{Fellowships}}
 \vspace{-0.5ex}
 
-\begin{hangparas}{.5in}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5in} >{\raggedleft}X@{}}
+Plant Sciences Departmental Graduate Student Research Award (\$185,803) & 2015 - 2019 \tabularnewline
+UC Davis Graduate Group in Ecology Fellowship (\$58,172) & 2014 - 2016 \tabularnewline
+NSF Graduate Research Fellowship (\$132,000) & 2013 - 2018 \tabularnewline
+\end{tabularx}
 
-\hspace{0.575em}Michonneau, Francois, Tracy Teal, Adam Obeng, Aleksandra Pawlik, Mateusz Kuzak, Edmund Hart, Kara Woo, Ethan White, Philip Lijnzaad, Hilmar Lapp, Karthik Ram, Ben Marwick, Kari L. Jordan, Matthias Greni\'e, Auriel Fournier, Harriet Dashnow, Kate Hertweck, Mark Robinson, Alexey Shiklomanov, K. A. S. Mislan, Steve Pederson, Alex Pletzer, Anne Fouilloux, C. Titus Brown, Christie Bahlai, Francisco Rodriguez-Sanchez, Jaime Ashander, Lisa Breckels, Markus J. Akenbrand, Meghan Duffy, Shawn Taylor, Stephanie Labou, Thomas Sandmann, Zena Lapp, Achaz von Hardenberg, Carolyn Voter, Catherine Hulshof, Clara Shaw, Daina Bouquin, Daniel Stubbs, Darya Vanichkina, Dmytro Fishman, Earle Wilson, Eilis Hannon, Elena S\"ugis, Eli Strauss, Emilia Gan, Erin Becker, Fred Boehm, Hao Ye, Jarrett Byrnes, Jeffrey W Hollister, Jieming Chen, Jillian Dunic, Jonathan Keane, Joseph Stachelek, Josh Herr, Karen Cranston, Kathe Todd-Brown, Katie Lotterhos, Kayla Peck, Kenan Direk, Kevin Hall, Kristian Tyl\'en, Kyriakos Chatzidimitriou, Lachlan Deer, Laurent Gatto, Leah Wasser, Leszek Tarkowski, M. Foos, Marco Chiapello, Matthias Greni\'e, \textbf{Michael Koontz}, Myfanwy Johnston, Nicholas Marino, Nick Carchedi, Olivia Burge, Philip Lijnzaad, Ryan Peek, Sarah Supp, Tara Webster, Will Furnass, Will Pearse, Ye Li, sfn\_brt, and suparee. 2017, April 28. Data Carpentry R Ecology Lesson v2017.04.3. Zenodo. doi: 10.5281/zenodo.569875 
-
-
-\end{hangparas}
 \vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{1.5ex}
-\subsubsection*{FUNDED GRANTS}
-\vspace{-0.5ex}
 
-\begin{tabular}{>{\raggedright}p{5.25in}>{\raggedleft}p{0.75in}}
-US Forest Service Western Wildlands Environmental Threat Assessment Center & 2018 \tabularnewline
-\emph{Using drones to link spatial features of forests and bark beetle-induced mortality at broad spatial scales} & \$7,500
-\end{tabular}
+\subsubsection*{\textsc{Publications}}
 
-\begin{tabular}{>{\raggedright}p{5.25in}>{\raggedleft}p{0.75in}}
-US Forest Service Western Wildlands Environmental Threat Assessment Center & 2017 \tabularnewline
-\emph{Assessing forest spatial structure and bark beetle spread using small, unmanned aerial systems (sUAS)} & \$19,420
-\end{tabular}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
+
+\LTXtable{\textwidth}{publications.tex}
+
+% Use this code if you want the original taburlarx environment implementation; caution: this cannot be split across pages
+%\vspace{-0.5ex}
+
+%\renewcommand{\arraystretch}{1.2}
+%\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+%
+%\hangindent=5ex \textbf{Koontz, Michael J.}, Meagan F. Oldfather, Brett A. Melbourne, and Ruth A. Hufbauer. 2018. Parsing propagule pressure: Number, not size, of introductions drives colonization success in a novel environment. Ecology and Evolution. 8 (16): 8043-8054. https://doi.org/10.1002/ece3.4226 & 2018 \tabularnewline
+%
+%\hangindent=5ex Steel, Zachary L., \textbf{Michael J. Koontz}, and Hugh D. Safford. 2018. The changing landscape of wildfire: Burn pattern trends and implications for California's yellow pine and mixed conifer forests. Landscape Ecology. 33 (7): 1159-1176. https://doi.org/10.1007/s10980-018-0665-5 & 2018 \tabularnewline
+%
+%\hangindent=5ex Oldfather, Meagan F., Matthew N. Britton, Prahlad D. Papper, \textbf{Michael J. Koontz}, Michelle M. Halbur, Celeste Dodge, Alan L. Flint, Lorraine E. Flint, and David D. Ackerly. 2016. Effects of topoclimatic complexity on the composition of woody plant communities. AoB Plants. 8: plw049. https://doi.org/10.1093/aobpla/plw049 & 2016 \tabularnewline
+%
+%\hangindent=5ex Hufbauer, Ruth A., Marianna Sz\"ucs, Emily Kasyon, Courtney Youngberg, \textbf{Michael J. Koontz}, Christopher Richards, Ty Tuff, and Brett A. Melbourne. 2015. Reply to Wootton and Pfister: The search for general context should include synthesis with laboratory model systems. Proceedings of the National Academy of Sciences. 112 (44): E5904. https://doi.org/10.1073/pnas.1517210112 & 2015 \tabularnewline
+%
+%\hangindent=5ex Hufbauer, Ruth A., Marianna Sz\"ucs, Emily Kasyon, Courtney Youngberg, \textbf{Michael J. Koontz}, Christopher Richards, T. Tuff, and Brett A. Melbourne. 2015. Three types of rescue can avert extinction in a changing environment. Proceedings of the National Academy of Sciences. 112 (33): 10557-10562. https://doi.org/10.1073/pnas.1504732112 & 2015 \tabularnewline
+%
+%\hangindent=5ex Cole, Rebecca J., Creighton M. Litton, \textbf{Michael J. Koontz}, and Rhonda K. Loh. 2012. Vegetation recovery 16 years after feral pig removal from
+%a wet Hawaiian forest. Biotropica. 44: 463-471. https://doi.org/10.1111/j.1744-7429.2011.00841.x & 2012 \tabularnewline
+%\end{tabularx}
+
+\vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1.5ex}
-\subsubsection*{TEACHING EXPERIENCE}
+\subsubsection*{\textsc{Funded Grants}}
 \vspace{-0.5ex}
 
-\begin{hangparas}{.25in}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+U.S. Forest Service Western Wildlands Environmental Threat Assessment Center & 2018 \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Project:} Using drones to link spatial features of forests and bark beetle-induced mortality at broad spatial scales (\$7,500) & \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Collaborators:} Malcolm P. North, Chris J. Fettig, Leif A. Mortenson, Andrew M. Latimer, and Connie I. Millar & \tabularnewline
+U.S. Forest Service Western Wildlands Environmental Threat Assessment Center & 2017 \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Project:} Assessing forest spatial structure and bark beetle spread using small, unmanned aerial systems (sUAS) (\$19,420) & \tabularnewline
+\addtolength{\leftskip}{5ex}\emph{Collaborators:} Malcolm P. North, Chris J. Fettig, Leif A. Mortenson, Andrew M. Latimer, and Connie I. Millar & \tabularnewline
+\end{tabularx}
 
-\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
-\emph{Instructor:} &ECL298 R for Data Analysis and Visualization in Science, UCD, 2018 \tabularnewline
-&Introduction to R, Data Intensive Biology Summer Institute, UCD, 2017 \tabularnewline
-& ECOL592 Introduction to R, CSU, 2014
-\end{tabular}
+\vspace{1ex}
 
-\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
-\emph{Teaching assistant:}  & Data Skills in R, Cornerstone Research, 2016 \tabularnewline
-& PLS206 Applied Multivariate Modeling, UCD, 2016 \tabularnewline
-& R Bootcamp, UCD, 2015 \tabularnewline
-& LIFE320 Ecology, CSU, 2013 \tabularnewline 
-& LIFE102 Biology Laboratory, CSU, 2012 \tabularnewline
-\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection*{\textsc{Open Educational Resources}}
+\vspace{-0.5ex}
 
-\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
-\emph{Guest lecturer:} & D-RUG Meeting, ``High quality plots using base R graphics'' Davis, 2015 \tabularnewline
-& LIFE320 Ecology, ``Invasion Biology'' CSU, 2013
-\end{tabular}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+\hangindent=5ex Peek, Ryan A. and \textbf{Michael J. Koontz}. 2018. R for Data Analysis and Visualization in Science (R-DAVIS) v1.0.0. GitHub. https://gge-ucd.github.io/R-DAVIS/. & 2018 \tabularnewline
+%\hspace{0.575em}Michonneau, Francois, Tracy Teal, Adam Obeng, Aleksandra Pawlik, Mateusz Kuzak, Edmund Hart, Kara Woo, Ethan White, Philip Lijnzaad, Hilmar Lapp, Karthik Ram, Ben Marwick, Kari L. Jordan, Matthias Greni\'e, Auriel Fournier, Harriet Dashnow, Kate Hertweck, Mark Robinson, Alexey Shiklomanov, K. A. S. Mislan, Steve Pederson, Alex Pletzer, Anne Fouilloux, C. Titus Brown, Christie Bahlai, Francisco Rodriguez-Sanchez, Jaime Ashander, Lisa Breckels, Markus J. Akenbrand, Meghan Duffy, Shawn Taylor, Stephanie Labou, Thomas Sandmann, Zena Lapp, Achaz von Hardenberg, Carolyn Voter, Catherine Hulshof, Clara Shaw, Daina Bouquin, Daniel Stubbs, Darya Vanichkina, Dmytro Fishman, Earle Wilson, Eilis Hannon, Elena S\"ugis, Eli Strauss, Emilia Gan, Erin Becker, Fred Boehm, Hao Ye, Jarrett Byrnes, Jeffrey W Hollister, Jieming Chen, Jillian Dunic, Jonathan Keane, Joseph Stachelek, Josh Herr, Karen Cranston, Kathe Todd-Brown, Katie Lotterhos, Kayla Peck, Kenan Direk, Kevin Hall, Kristian Tyl\'en, Kyriakos Chatzidimitriou, Lachlan Deer, Laurent Gatto, Leah Wasser, Leszek Tarkowski, M. Foos, Marco Chiapello, Matthias Greni\'e, \textbf{Michael Koontz}, Myfanwy Johnston, Nicholas Marino, Nick Carchedi, Olivia Burge, Philip Lijnzaad, Ryan Peek, Sarah Supp, Tara Webster, Will Furnass, Will Pearse, Ye Li, sfn\_brt, and suparee. 2017. Data Carpentry R Ecology Lesson v2017.04.3. Zenodo. doi: 10.5281/zenodo.569875 
+%\vspace{1ex}
 
-\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
-\emph{Formal training:} & Educational psychology \& instructional design, SoftwareCarpentry, 2016
-\end{tabular}
+\hangindent=5ex Michonneau, Francois, \emph{et al.} 2017. Data Carpentry R Ecology Lesson v2017.04.3. Zenodo. https://doi.org/10.5281/zenodo.569875 & 2017 \tabularnewline
 
-\end{hangparas}
+\hangindent=5ex\textbf{Koontz, Michael J.} and Ryan A. Peek. 2017. Data Carpentry Week: Introduction to R. v1.0.0. GitHub. https://mikoontz.github.io/data-carpentry-week/. & 2017 \tabularnewline
+
+\end{tabularx}
+
+\vspace{1ex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{\textsc{Teaching Experience}}
+\vspace{-0.5ex}
+
+\LTXtable{\textwidth}{teaching-experience.tex}
+
+% This is the tabularx implementation of the teaching experience section, that won't break across pages.
+
+%\renewcommand{\arraystretch}{1.2}
+%\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+%\textbf{Lead or Co-lead Instructor} \tabularnewline
+%\addtolength{\leftskip}{5ex}\emph{Data Carpentry: Geospatial Workshop} & 2018 \tabularnewline
+%\addtolength{\leftskip}{5ex}A 2-day pilot workshop for Data Carpentry in Davis, California that teaches project organization and management for spatial data & (upcoming) \tabularnewline[1ex]
+%
+%\addtolength{\leftskip}{5ex}\emph{ECL298 \texttt{R} for Data Analysis and Visualization in Science} & 2018 \tabularnewline
+%\addtolength{\leftskip}{5ex}A quarter-long 2-credit graduate-level course of 25+ ecologists at the University of California, Davis teaching scientific computing skills (data/project management, version control, reproducible workflows using the programming language \texttt{R}) & \tabularnewline[1ex]
+%
+%\addtolength{\leftskip}{5ex}\emph{Data Carpentry Week: Introduction to \texttt{R}} & 2017 \tabularnewline
+%\addtolength{\leftskip}{5ex}A week-long course of 25+ learners taught as part of the Data Intensive Biology Summer Institute at the University of California, Davis teaching scientific computing skills to researchers using \texttt{R} & \tabularnewline
+%
+%\addtolength{\leftskip}{5ex}\emph{ECOL592 Introduction to \texttt{R}} & 2014 \tabularnewline
+%\addtolength{\leftskip}{5ex}A semester-long 1-credit graduate-level course of 20+ learners at Colorado State University including professors, postdocs, undergraduates, and local professionals teaching basic data manipulation and visualization using \texttt{R} & \tabularnewline[1ex]
+%
+%\textbf{Teaching assistant}  \tabularnewline
+%\addtolength{\leftskip}{5ex}Data Skills in \texttt{R}, Cornerstone Research & 2016 \tabularnewline
+%\addtolength{\leftskip}{5ex}PLS206 Applied Multivariate Modeling; University of California, Davis & 2016 \tabularnewline
+%\addtolength{\leftskip}{5ex}\texttt{R} Bootcamp; University of California, Davis & 2015 \tabularnewline
+%\addtolength{\leftskip}{5ex}LIFE320 Ecology, Colorado State University & 2013 \tabularnewline 
+%\addtolength{\leftskip}{5ex}LIFE102 Biology Laboratory, Colorado State University & 2012 \tabularnewline[1ex]
+%
+%\textbf{Guest lecturer} \tabularnewline
+%\addtolength{\leftskip}{5ex}Davis \texttt{R} Users Group (D-RUG): ``High quality plots using base \texttt{R} graphics'' & 2015 \tabularnewline
+%\addtolength{\leftskip}{5ex}LIFE320 Ecology, Colorado State University: ``Invasion Biology''  & 2013 \tabularnewline[1ex]
+%
+%\textbf{Formal training} \tabularnewline 
+%\addtolength{\leftskip}{5ex}Educational psychology \& instructional design, SoftwareCarpentry & 2016
+%\end{tabularx}
+
+% This was my original implementation of the teaching experience section
+
+%\begin{hangparas}{.25in}{1}
+%
+%\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
+%\emph{Instructor:} &ECL298 R for Data Analysis and Visualization in Science, UCD, 2018 \tabularnewline
+%&Introduction to R, Data Intensive Biology Summer Institute, UCD, 2017 \tabularnewline
+%& ECOL592 Introduction to R, CSU, 2014
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
+%\emph{Teaching assistant:}  & Data Skills in R, Cornerstone Research, 2016 \tabularnewline
+%& PLS206 Applied Multivariate Modeling, UCD, 2016 \tabularnewline
+%& R Bootcamp, UCD, 2015 \tabularnewline
+%& LIFE320 Ecology, CSU, 2013 \tabularnewline 
+%& LIFE102 Biology Laboratory, CSU, 2012 \tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
+%\emph{Guest lecturer:} & D-RUG Meeting, ``High quality plots using base R graphics'' Davis, 2015 \tabularnewline
+%& LIFE320 Ecology, ``Invasion Biology'' CSU, 2013
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{1.26in}>{\raggedright}p{4.75in}}
+%\emph{Formal training:} & Educational psychology \& instructional design, SoftwareCarpentry, 2016
+%\end{tabular}
+%
+%\end{hangparas}
+
 \vspace{1ex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection*{\textsc{Awards and Honors}}
 
-\subsubsection*{AWARDS AND HONORS}
-\vspace{-0.5ex}
+\LTXtable{\textwidth}{awards-and-honors.tex}
 
-% The commented-out code flips the orientation of the year and the award (year on left, award on right)
+% Use this code to implement the original tabularx environement, which can't go across pages
 
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2014 & College of Agriculture Ag Day Scholarship (\$1,000)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2014 & Front Range Student Ecology Symposium 3rd Place Oral Presentation
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2014 & Colorado State Graduate Degree Program in Ecology Travel Award (\$500)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2013 & Ynez Morey and Chuck Reagin Memorial Entomology Scholarship (\$1,000)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2009 & University of Hawaii at Hilo Outstanding Senior in Biology
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2008 & Hawaii Audubon Society Rose Shuster Taylor Scholarship (\$1,838)
-%\end{tabular}
-%
-%\begin{tabular}{>{\raggedright}p{.75in}>{\raggedright}p{5in}}
-%2006 & AmeriCorps Education Award (\$4,750)
-%\end{tabular}
+%\vspace{-0.5ex}
 
-%%
+%\renewcommand{\arraystretch}{1.2}
+%\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+%Plant Sciences Graduate Student Travel Award (\$1,000) & 2018 \tabularnewline
+%Nominated for Outstanding Graduate Student Teaching Award & 2017 \tabularnewline
+%Plant Sciences Graduate Student Travel Award (\$1,000) & 2016 \tabularnewline
+%College of Agriculture Ag Day Scholarship (\$1,000) & 2014 \tabularnewline
+%Front Range Student Ecology Symposium 3rd Place Oral Presentation & 2014 \tabularnewline
+%Colorado State Graduate Degree Program in Ecology Travel Award (\$500) & 2014 \tabularnewline
+%Ynez Morey and Chuck Reagin Memorial Entomology Scholarship (\$1,000) & 2013 \tabularnewline
+%Colorado State University Graduate Fellowship (\$1,500) & 2012 \tabularnewline
+%CSU Programs for Research and Scholarly Excellence Fellowship (\$2,339) & 2012 \tabularnewline
+%University of Hawaii at Hilo Outstanding Senior in Biology & 2009 \tabularnewline
+%Hawaii Audubon Society Rose Shuster Taylor Scholarship (\$1,838) & 2008 \tabularnewline
+%AmeriCorps Education Award (\$4,750) & 2006 \tabularnewline
+%\end{tabularx}
 
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-Nominated for Outstanding Graduate Student Teaching Award & 2017
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-College of Agriculture Ag Day Scholarship (\$1,000) & 2014
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-Front Range Student Ecology Symposium 3rd Place Oral Presentation & 2014
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-Colorado State Graduate Degree Program in Ecology Travel Award (\$500) & 2014
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-Ynez Morey and Chuck Reagin Memorial Entomology Scholarship (\$1,000) & 2013
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-Colorado State University Graduate Fellowship (\$1,500) & 2012
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5.4in}>{\raggedleft}p{0.6in}}
-CSU Programs for Research and Scholarly Excellence Fellowship (\$2,339) & 2012
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-University of Hawaii at Hilo Outstanding Senior in Biology & 2009
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-Hawaii Audubon Society Rose Shuster Taylor Scholarship (\$1,838) & 2008
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{5in}>{\raggedleft}p{1in}}
-AmeriCorps Education Award (\$4,750) & 2006
-\end{tabular}
-
+\vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1.5ex}
-\subsubsection*{INVITED TALKS}
+\subsubsection*{\textsc{Invited Talks}}
 \vspace{-0.5ex}
 
-\begin{hangparas}{.5in}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
 
-\hspace{0.575em}\textbf{Koontz, Michael J.}, Malcolm P. North, Christopher J. Fettig, L. A. Mortenson, Constance I. Millar, Malcolm P. North. 2018-03-22. Using drones to link spatial structure of forests and insect outbreaks. University of California Cooperative Extension North Coast Forest Health Meeting. Eureka, CA.
+\hangindent=5ex \textbf{Koontz, Michael J.}, Malcolm P. North, Christopher J. Fettig, L. A. Mortenson, Constance I. Millar, Malcolm P. North. 2018-03-22. Using drones to link spatial structure of forests and insect outbreaks. University of California Cooperative Extension North Coast Forest Health Meeting. Eureka, CA. & 2018 \tabularnewline
 
-\hspace{0.575em}\textbf{Koontz, Michael J.}, Andrew M. Latimer, Christopher J. Fettig, L. A. Mortenson, Constance I. Millar, Malcolm P. North. 2017-11-15. Using drones to go beyond stand density: Spatial features of western pine beetle-attacked forests. California Forest Pest Council Annual Meeting. Davis, CA.
+\hangindent=5ex \textbf{Koontz, Michael J.}, Andrew M. Latimer, Christopher J. Fettig, L. A. Mortenson, Constance I. Millar, Malcolm P. North. 2017-11-15. Using drones to go beyond stand density: Spatial features of western pine beetle-attacked forests. California Forest Pest Council Annual Meeting. Davis, CA. & 2017
 
-\end{hangparas}
+\end{tabularx}
 \vspace{1ex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1.5ex}
-\subsubsection*{CONTRIBUTED TALKS}
-\vspace{-0.5ex}
+\subsubsection*{\textsc{Contributed Talks}}
 
-\begin{hangparas}{.5in}{1}
+\LTXtable{\textwidth}{contributed-talks.tex}
 
-\hspace{0.575em}\textbf{Koontz, Michael J.}, Andrew M. Latimer, L. A. Mortenson, Christopher J. Fettig, Constance I. Millar, and Malcolm P. North. 2018-09-20. The effect of spatial variability of forest structure on severity of a tree-killing insect. MtnClim Conference. Gothic, CO.
+% This code implements the tabularx environment, which can't be split across pages
 
-\hspace{0.575em}\textbf{Koontz, Michael J.}, Andrew M. Latimer, Chhaya M. Werner, Stephen E. Fick, and Malcolm P. North. 2018-08-09. Greater variability in local vegetation structure increases forest resilience to wildfire. Ecological Society of America Annual Meeting. New Orleans, LA.
+%\vspace{-0.5ex}
 
-\hspace{0.575em}Lee, Stephen P., Jan Ng, Ash T. Zemenick, Mikaela M. Provost, Carlos A. Ruvalcaba, Derek J. N. Young, Emilio Laca, \textbf{Michael J. Koontz}, Jessica Rudnick, and Elizabeth J. Sturdy. 2018-03-03. Evolution toward holistic review in the Ecology Graduate Program at University of California, Davis -- Part I: Design and implementation of a system to evaluate applicants. 10th Annual Understanding Interventions Meeting. Baltimore, MD.
-
-\hspace{0.575em}Ng, Jan, \textbf{Michael J. Koontz}, Jessica Rudnick, Elizabeth J. Sturdy, Ash T. Zemenick, Steven P. Lee, Mikaela M. Provost, Carlos A. Ruvalcaba, Derek J. N. Young, and Emilio Laca. 2018-03-03. Evolution toward holistic review in the Ecology Graduate Program at UC Davis -- Part II: Methods for evaluating progress. 10th Annual Understanding Interventions that Broaden Participation in Science Careers Meeting. Baltimore, MD.
-
-\hspace{0.575em}Oldfather, Meagan F., Brian Smithers, \textbf{Michael J. Koontz}, Jan Nachlinger, Catie Bishop, Jim Bishop, and Constance I. Millar. 2018-02-02. Alpine plant community-climate relationships across elevation gradients in the White Mountains, California. California Native Plant Society Conservation Conference. Los Angeles, CA.
-
-\hspace{0.575em}\textbf{Koontz, Michael J.}, Malcolm P. North, and Andrew M. Latimer. 2016-10-17. Spatial heterogeneity of vegetation increases forest resistance to wildfire, and modern forests have a high potential for large, stand-replacing events. MtnClim Conference. Leavenworth, WA.
-
-\hspace{0.575em}\textbf{Koontz, Michael J.}. 2014-09-24. The eco-evolutionary consequences of multiple introductions for colonizing individuals. BSPM Departmental Seminar and Thesis Defense. Fort Collins, CO.
-
-\hspace{0.575em}\textbf{Koontz, Michael J.} and Ruth A. Hufbauer. 2014-08-08. The consequences of multiple introductions for colonizing individuals. Ecological Society of America Annual Meeting. Sacramento, CA.
-
-\hspace{0.575em}\textbf{Koontz, Michael J.} and Ruth A. Hufbauer. 2014-02-19. Parsing propagule pressure: The role of multiple introductions in the colonization of novel habitats. Front Range Student Ecology Symposium. Fort Collins, CO.
-
-\end{hangparas}
-\vspace{1ex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\vspace{1.5ex}
-\subsubsection*{PROFESSIONAL EXPERIENCE}
-\vspace{-0.5ex}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
-Research Technician, Apr. 2012 to Aug. 2012 & Lara Kueppers \tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
-\hspace{1.5em}\emph{Tree seedling demography, climate change} & \emph{University of California, Merced} %\tabularnewline
-\end{tabular}
-\vspace{-2ex}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
-Research Technician, Apr. 2011 to Jun. 2011 & Rebecca Cole\tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{=2.75in}}
-\hspace{1.5em}\emph{Tropical forest succession, biogeochemistry} & \emph{University of Colorado, Boulder}\tabularnewline
-\end{tabular}
-\vspace{-2ex}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
-Research Technician, Nov. 2009 to Jan. 2011 & Creighton Litton/Christian Giardina\tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
-\hspace{1.5em}\emph{Forest carbon cycling, global change} & \emph{University of Hawaii, Manoa/USDA FS}\tabularnewline
-\end{tabular}
-\vspace{-2ex}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
-Research Technician, Jun. 2009 to Nov. 2009 & Patrick Hart\tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
-\hspace{1.5em}\emph{Tropical forest demography} & \emph{University of Hawaii at Hilo}\tabularnewline
-\end{tabular}
-\vspace{-2ex}
-
-\begin{tabular}{>{\raggedright}p{3in}>{\raggedleft}p{3in}}
-Field Leader, May 2007 to Aug. 2007 & Rhonda Loh\tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{3in}>{\raggedleft}p{3in}}
-\hspace{1.5em}\emph{Sea turtle behavior/conservation} & \emph{National Park Service}
-\end{tabular}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\vspace{1.5ex}
-\subsubsection*{SKILLS}
-\vspace{-0.5ex}
-
-\begin{hangparas}{0.25in}{1}
-\hspace{0.575em}\emph{Technical:} Data manipulation, visualization, and analysis with R; GIS with R, Google Earth Engine, and CloudCompare; FAA Remote Pilot License; \LaTeX{}; Bayesian inference using MCMC methods
-
-\hspace{0.575em}\emph{Field:} Forest stem mapping, GLORIA multi-summit approach, LiCOR soil respiration, ECH20 soil moisture 
-
-\hspace{0.575em}\emph{Lab:} DNA extraction, PCR, gel electrophoresis, rearing of \emph{Tribolium} populations
-
-\end{hangparas}
-\vspace{1ex}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection*{CURRENT COLLABORATIONS}
-\vspace{-0.5ex}
-
-\begin{hangparas}{0.4in}{1}
-
-\hspace{0.575em}\textbf{Michael J. Koontz}$^{1}$, Chhaya M. Werner$^{1}$, Stephen E. Fick$^{2}$, Malcolm P. North$^{1,3}$, and Andrew M. Latimer$^{1}$
-\emph{Spatial heterogeneity of vegetation increases forest resistance to wildfire} \tabularnewline
-$^{1}$University of California, Davis, $^{2}$ USGS, $^{3}$US Forest Service, Pacific Southwest Research Station \tabularnewline
-\textcolor{blue}{\href{https://github.com/mikoontz/remote-sensing-resistance}{https://github.com/mikoontz/remote-sensing-resistance}}
-
-\hspace{0.575em}\textbf{Michael J. Koontz}$^{1}$, Andrew M. Latimer$^{1}$, Leif A. Mortenson$^{2}$, Christopher J. Fettig$^{2}$, Constance I. Millar $^{2}$, and Malcolm P. North$^{1,2}$
-\emph{The effect of spatial variability of forest structure on the severity of a tree-killing insect} \tabularnewline
-$^{1}$University of California, Davis, $^{2}$ US Forest Service, Pacific Southwest Research Station \tabularnewline
-\textcolor{blue}{\href{https://github.com/mikoontz/local-structure-wpb-severity}{https://github.com/mikoontz/local-structure-wpb-severity}}
-
-\hspace{0.575em}GLORIA Great Basin. A regional chapter of an international organization monitoring long-term vegetation plots on mountain tops to capture climate change impacts to alpine plants. \tabularnewline
-\textcolor{blue}{\href{https://www.gloriagreatbasin.org/}{https://www.gloriagreatbasin.org/}}
-
-\hspace{0.575em}Jens Stevens$^{1}$, \textbf{Michael J. Koontz}$^{2}$, and Chhaya M. Werner$^{2}$
-\emph{Local effects of aspect on vegetation productivity in California.}\tabularnewline
-$^{1}$USGS, $^{2}$University of California, Davis
-
-\hspace{0.575em}\textbf{Michael J Koontz}$^{1}$ and Ruth A. Hufbauer$^{2}$
-\emph{Several, small introductions of individuals to a novel environment facilitate adaptation by mitigating genetic load} \tabularnewline
-$^{1}$University of California, Davis, $^{2}$Colorado State University 
-
-%\hspace{0.575em}Mason Earles$^{1}$, Derek Young$^{1}$, Jens Stevens$^{1}$, Andrew Latimer$^{1}$, \textbf{Michael Koontz}$^{1}$, and Malcolm North$^{1,2}$
-%\emph{Effect of severe drought on tree water relations and carbohydrate storage.}\tabularnewline
-%$^{1}$University of California, Davis, $^{2}$USDA Forest Service
+%\renewcommand{\arraystretch}{1.2}
+%\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
 %
-%\hspace{0.575em}\textbf{Michael Koontz}$^{1}$, Lauren Nichols$^{1}$, Jackie Fitzgerald$^{1}$, Marina LaForgia$^{2}$, and Robert Dunn$^{1}$ 
-%\emph{Responses of seedlings and seed banks to simulated warming in a temperate forest.} \tabularnewline
-%$^{1}$North Carolina State University, $^{2}$University of California, Davis
+%\hangindent=5ex \textbf{Koontz, Michael J.}, Andrew M. Latimer, L. A. Mortenson, Christopher J. Fettig, Constance I. Millar, and Malcolm P. North. 2018-09-20. The effect of spatial variability of forest structure on severity of a tree-killing insect. MtnClim Conference. Gothic, CO. & 2018 \tabularnewline
+%
+%\hangindent=5ex \textbf{Koontz, Michael J.}, Andrew M. Latimer, Chhaya M. Werner, Stephen E. Fick, and Malcolm P. North. 2018-08-09. Greater variability in local vegetation structure increases forest resilience to wildfire. Ecological Society of America Annual Meeting. New Orleans, LA. & 2018 \tabularnewline
+%
+%\hangindent=5ex Lee, Stephen P., Jan Ng, Ash T. Zemenick, Mikaela M. Provost, Carlos A. Ruvalcaba, Derek J. N. Young, Emilio Laca, \textbf{Michael J. Koontz}, Jessica Rudnick, and Elizabeth J. Sturdy. 2018-03-03. Evolution toward holistic review in the Ecology Graduate Program at University of California, Davis -- Part I: Design and implementation of a system to evaluate applicants. 10th Annual Understanding Interventions Meeting. Baltimore, MD. & 2018 \tabularnewline
+%
+%\hangindent=5ex Ng, Jan, \textbf{Michael J. Koontz}, Jessica Rudnick, Elizabeth J. Sturdy, Ash T. Zemenick, Steven P. Lee, Mikaela M. Provost, Carlos A. Ruvalcaba, Derek J. N. Young, and Emilio Laca. 2018-03-03. Evolution toward holistic review in the Ecology Graduate Program at UC Davis -- Part II: Methods for evaluating progress. 10th Annual Understanding Interventions that Broaden Participation in Science Careers Meeting. Baltimore, MD. & 2018 \tabularnewline
+%
+%\hangindent=5ex Oldfather, Meagan F., Brian Smithers, \textbf{Michael J. Koontz}, Jan Nachlinger, Catie Bishop, Jim Bishop, and Constance I. Millar. 2018-02-02. Alpine plant community-climate relationships across elevation gradients in the White Mountains, California. California Native Plant Society Conservation Conference. Los Angeles, CA. & 2018 \tabularnewline
+%
+%\hangindent=5ex \textbf{Koontz, Michael J.}, Malcolm P. North, and Andrew M. Latimer. 2016-10-17. Spatial heterogeneity of vegetation increases forest resistance to wildfire, and modern forests have a high potential for large, stand-replacing events. MtnClim Conference. Leavenworth, WA. & 2016 \tabularnewline
+%
+%\hangindent=5ex \textbf{Koontz, Michael J.}. 2014-09-24. The eco-evolutionary consequences of multiple introductions for colonizing individuals. BSPM Departmental Seminar and Thesis Defense. Fort Collins, CO. & 2014 \tabularnewline
+%
+%\hangindent=5ex \textbf{Koontz, Michael J.} and Ruth A. Hufbauer. 2014-08-08. The consequences of multiple introductions for colonizing individuals. Ecological Society of America Annual Meeting. Sacramento, CA. & 2014 \tabularnewline
+%
+%\hangindent=5ex \textbf{Koontz, Michael J.} and Ruth A. Hufbauer. 2014-02-19. Parsing propagule pressure: The role of multiple introductions in the colonization of novel habitats. Front Range Student Ecology Symposium. Fort Collins, CO. & 2014 \tabularnewline
+%
+%\end{tabularx}
 
-\end{hangparas}
 \vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1.5ex}
-\subsubsection*{UNDERGRADUATE MENTORING}
-\vspace{-0.5ex}
+% Needs work!
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-Charlotte Hoover (Watershed Science major) & Feb. 2013 to Aug. 2014 \tabularnewline
-\end{tabular}
+%\subsubsection*{\textsc{Professional Experience}}
+%\vspace{-0.5ex}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
+%Research Technician, Apr. 2012 to Aug. 2012 & Lara Kueppers \tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
+%\hspace{1.5em}\emph{Tree seedling demography, climate change} & \emph{University of California, Merced} %\tabularnewline
+%\end{tabular}
+%\vspace{-2ex}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
+%Research Technician, Apr. 2011 to Jun. 2011 & Rebecca Cole\tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{=2.75in}}
+%\hspace{1.5em}\emph{Tropical forest succession, biogeochemistry} & \emph{University of Colorado, Boulder}\tabularnewline
+%\end{tabular}
+%\vspace{-2ex}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
+%Research Technician, Nov. 2009 to Jan. 2011 & Creighton Litton/Christian Giardina\tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
+%\hspace{1.5em}\emph{Forest carbon cycling, global change} & \emph{University of Hawaii, Manoa/USDA FS}\tabularnewline
+%\end{tabular}
+%\vspace{-2ex}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
+%Research Technician, Jun. 2009 to Nov. 2009 & Patrick Hart\tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{3.25in}>{\raggedleft}p{2.75in}}
+%\hspace{1.5em}\emph{Tropical forest demography} & \emph{University of Hawaii at Hilo}\tabularnewline
+%\end{tabular}
+%\vspace{-2ex}
+%
+%\begin{tabular}{>{\raggedright}p{3in}>{\raggedleft}p{3in}}
+%Field Leader, May 2007 to Aug. 2007 & Rhonda Loh\tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{3in}>{\raggedleft}p{3in}}
+%\hspace{1.5em}\emph{Sea turtle behavior/conservation} & \emph{National Park Service}
+%\end{tabular}
+%
+%\vspace{1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-Kaitlyn Adkins (Biology major) & Sep. 2013 to Aug. 2014\tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-Jenny Rickford (Environmental Engineering major) & Feb. 2014 to Apr. 2014
-\end{tabular}
+% Needs work!
+%\subsubsection*{\textsc{Skills}}
+%\vspace{-0.5ex}
+%
+%\begin{hangparas}{0.25in}{1}
+%\hspace{0.575em}\emph{Technical:} Data manipulation, visualization, and analysis with R; GIS with R, Google Earth Engine, and CloudCompare; FAA Remote Pilot License; \LaTeX{}; Bayesian inference using MCMC methods
+%
+%\hspace{0.575em}\emph{Field:} Forest stem mapping, GLORIA multi-summit approach, LiCOR soil respiration, ECH20 soil moisture 
+%
+%\hspace{0.575em}\emph{Lab:} DNA extraction, PCR, gel electrophoresis, rearing of \emph{Tribolium} populations
+%
+%\end{hangparas}
+%\vspace{1ex}
+%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1.5ex}
-\subsubsection*{REVIEWING SERVICE}
+\subsubsection*{\textsc{Current Collaborations}}
 \vspace{-0.5ex}
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-rOpenSci: the \textcolor{blue}{\href{https://github.com/ropensci/onboarding/issues/82}{ccafs}} package \tabularnewline
-Journal of Theoretical Biology
-\end{tabular}
+\LTXtable{\textwidth}{current-collaborations.tex}
+
+%\begin{hangparas}{5ex}{1}
+%
+%\textbf{Michael J. Koontz}, Chhaya M. Werner, Stephen E. Fick, Malcolm P. North, and Andrew M. Latimer. Local variability of vegetation structure increases forest resilience to wildfire. \\
+%\textcolor{blue}{\href{https://github.com/mikoontz/remote-sensing-resistance}{https://github.com/mikoontz/remote-sensing-resistance}} 
+%
+%\smallskip
+%\textbf{Michael J. Koontz}, Andrew M. Latimer, Leif A. Mortenson, Chris J. Fettig, Connie I. Millar, and Malcolm P. North. The effect of spatial variability of forest structure on the severity of a tree-killing insect.
+%\textcolor{blue}{\href{https://github.com/mikoontz/local-structure-wpb-severity}{https://github.com/mikoontz/local-structure-wpb-severity}}
+%
+%\smallskip
+%\textbf{Michael J. Koontz} and Jeff C. Schank. An agent based model simulation of the outbreak behavior of the western pine beetle during the 2012 to 2016 Sierra Nevada megadrought. \\
+%\textcolor{blue}{\href{https://github.com/mikoontz/wpb-forest-structure-abm}{https://github.com/mikoontz/wpb-forest-structure-abm}}
+%
+%\smallskip
+%Oldfather, Meagan F., Brian Smithers, \textbf{Michael J. Koontz}, Jan Nachlinger, Catie Bishop, Jim Bishop, and Connie I. Millar. Alpine plant community-climate relationships across elevation gradients in the White Mountains, California.
+%
+%\smallskip
+%Jens T. Stevens, \textbf{Michael J. Koontz}, and Chhaya M. Werner.
+%Local effects of aspect on vegetation productivity in California.
+%
+%\smallskip
+%\textbf{Michael J. Koontz} and Ruth A. Hufbauer.
+%Several, small introductions of individuals to a novel environment facilitate adaptation by mitigating genetic load
+%\end{hangparas}
+%
+%\vspace{1ex}
+
+% This code includes affiliations, but perhaps that is too verbose.
+%\begin{hangparas}{5ex}{1}
+
+%\textbf{Michael J. Koontz}$^{1}$, Chhaya M. Werner$^{1}$, Stephen E. Fick$^{2}$, Malcolm P. North$^{1,3}$, and Andrew M. Latimer$^{1}$. Local variability of vegetation structure increases forest resilience to wildfire
+%$^{1}$University of California, Davis, $^{2}$U.S. Geological Survey, Southwest Biological Science Center, $^{3}$U.S. Forest Service, Pacific Southwest Research Station \\
+%\textcolor{blue}{\href{https://github.com/mikoontz/remote-sensing-resistance}{https://github.com/mikoontz/remote-sensing-resistance}}
+
+%\textbf{Michael J. Koontz}$^{1}$, Andrew M. Latimer$^{1}$, Leif A. Mortenson$^{2}$, Chris J. Fettig$^{2}$, Connie I. Millar $^{2}$, and Malcolm P. North$^{1,2}$ \\
+%\emph{The effect of spatial variability of forest structure on the severity of a tree-killing insect} \\
+%$^{1}$University of California, Davis, $^{2}$U.S. Forest Service, Pacific Southwest Research Station \\
+%\textcolor{blue}{\href{https://github.com/mikoontz/local-structure-wpb-severity}{https://github.com/mikoontz/local-structure-wpb-severity}}
+
+%Jens T. Stevens$^{1}$, \textbf{Michael J. Koontz}$^{2}$, and Chhaya M. Werner$^{2}$ \\
+%\emph{Local effects of aspect on vegetation productivity in California.}\tabularnewline
+%$^{1}$U.S. Geological Survey, Southwest Biological Science Center, $^{2}$University of California, Davis
+
+%\textbf{Michael J. Koontz}$^{1}$ and Ruth A. Hufbauer$^{2}$ \\
+%\emph{Several, small introductions of individuals to a novel environment facilitate adaptation by mitigating genetic load} \\
+%$^{1}$University of California, Davis, $^{2}$Colorado State University 
+%\end{hangparas}
+%
+%\vspace{1ex}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1.5ex}
-\subsubsection*{VOLUNTEER/INTERNSHIP EXPERIENCE}
+% This section is pretty old now...
+%\subsubsection*{\textsc{Undergraduate Mentoring}}
+%\vspace{-0.5ex}
+%
+%\renewcommand{\arraystretch}{1.2}
+%\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{4.5in} >{\raggedleft}X@{}}
+%Charlotte Hoover (Watershed Science major) & Feb. 2013 to Aug. 2014 \tabularnewline
+%Kaitlyn Adkins (Biology major) & Sep. 2013 to Aug. 2014\tabularnewline
+%Jenny Rickford (Environmental Engineering major) & Feb. 2014 to Apr. 2014
+%\end{tabularx}
+%
+%\vspace{1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{\textsc{Reviewing Service}}
 \vspace{-0.5ex}
 
-\begin{tabular}{>{\raggedright}p{4.5in}>{\raggedleft}p{1.5in}}
-Global Observation Research Initiative in Alpine Environments & 2013, 2015 to 2018\tabularnewline
-\hspace{1.5em}\emph{Death Valley National Park, Death Valley, CA}\\
-\hspace{1.5em}\emph{Great Basin National Park, Baker, NV}\\
-\hspace{1.5em}\emph{Sweetwater Mountain Range, Eastern Sierra, CA}\\
-\hspace{1.5em}\emph{White Mountains Wilderness, CA}
-\end{tabular}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{4.5in} >{\raggedleft}X@{}}
+rOpenSci \texttt{R} packages (\textcolor{blue}{\href{https://github.com/ropensci/onboarding/issues/82}{ccafs}}), Journal of Theoretical Biology
+\end{tabularx}
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-Volunteer Wildland Firefighter & Dec. 2009 to Jan. 2011\tabularnewline
-\hspace{1.5em}\emph{Hawaii Volcanoes National Park, Volcano, HI}\tabularnewline
-\end{tabular}
+\vspace{1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-Native Plant Nursery Internship & May 2008 to Aug. 2008 \tabularnewline
-\hspace{1.5em}\emph{Environmental Concern Inc., St. Michaels, MD}\tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-AmeriCorps Conservation Forestry Internship & Jan. 2006 to Dec. 2006\tabularnewline
-\hspace{1.5em}\emph{State of Hawaii Natural Area Reserve System, Maui, HI}\tabularnewline
-\end{tabular}
-
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
-Hawksbill Sea Turtle Project Volunteer & Sep. 2005 to Dec. 2005\tabularnewline
-\hspace{1.5em}\emph{Hawaii Volcanoes National Park, Volcano, HI}\tabularnewline
-\end{tabular}
+% Needs work!
+%\subsubsection*{\textsc{Volunteer/Internship Experience}}
+%\vspace{-0.5ex}
+%
+%\begin{tabular}{>{\raggedright}p{4.5in}>{\raggedleft}p{1.5in}}
+%Global Observation Research Initiative in Alpine Environments & 2013, 2015 to 2018\tabularnewline
+%\hspace{1.5em}\emph{Death Valley National Park, Death Valley, CA}\\
+%\hspace{1.5em}\emph{Great Basin National Park, Baker, NV}\\
+%\hspace{1.5em}\emph{Sweetwater Mountain Range, Eastern Sierra, CA}\\
+%\hspace{1.5em}\emph{White Mountains Wilderness, CA}
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
+%Volunteer Wildland Firefighter & Dec. 2009 to Jan. 2011\tabularnewline
+%\hspace{1.5em}\emph{Hawaii Volcanoes National Park, Volcano, HI}\tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
+%Native Plant Nursery Internship & May 2008 to Aug. 2008 \tabularnewline
+%\hspace{1.5em}\emph{Environmental Concern Inc., St. Michaels, MD}\tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
+%AmeriCorps Conservation Forestry Internship & Jan. 2006 to Dec. 2006\tabularnewline
+%\hspace{1.5em}\emph{State of Hawaii Natural Area Reserve System, Maui, HI}\tabularnewline
+%\end{tabular}
+%
+%\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
+%Hawksbill Sea Turtle Project Volunteer & Sep. 2005 to Dec. 2005\tabularnewline
+%\hspace{1.5em}\emph{Hawaii Volcanoes National Park, Volcano, HI}\tabularnewline
+%\end{tabular}
+%
+%\vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\subsubsection*{PROFESSIONAL MEETINGS ATTENDED}
+%\subsubsection*{\textsc{Professional Meetings Attended}}
 %\vspace{-0.5ex}
 
 %\begin{tabular}{>{\raggedright}p{0.35in}>{\raggedright}p{5.65in}}
@@ -586,15 +577,18 @@ Hawksbill Sea Turtle Project Volunteer & Sep. 2005 to Dec. 2005\tabularnewline
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1.5ex}
-\subsubsection*{PROFESSIONAL MEMBERSHIPS}
+\subsubsection*{\textsc{Professional Memberships}}
 \vspace{-0.5ex}
 
-\begin{tabular}{>{\raggedright}p{4in}>{\raggedleft}p{2in}}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{4.5in} >{\raggedleft}X@{}}
+GLORIA Great Basin (\textcolor{blue}{\href{https://www.gloriagreatbasin.org/}{https://www.gloriagreatbasin.org/}}) & \tabularnewline
+\addtolength{\leftskip}{5ex}Secretary, Board Member, Data Manager & 2017 - 2018 \tabularnewline
+\addtolength{\leftskip}{5ex}Volunteer & 2013 - 2018 \tabularnewline
 Ecological Society of America & 2014 to 2018\tabularnewline
 American Alpine Club & 2016 to 2018\tabularnewline
 Northern California Botanists & 2016\tabularnewline
-\end{tabular}
+\end{tabularx}
 
 %\begin{tabular}{>{\raggedright}p{1in}>{\raggedright}p{5in}}
 %2014 - 2015 & Ecological Society of America \tabularnewline
