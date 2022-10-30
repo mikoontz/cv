@@ -23,13 +23,25 @@
 \addtolength{\abovecaptionskip}{-3mm}
 \usepackage{hanging}
 \usepackage{babel}
+\usepackage[colorlinks=true, allcolors=black, pdfborder={0 0 0}]{hyperref}
+% \usepackage[colorlinks=true, urlcolor=black, pdfborder={0 0 0}]{hyperref}
+% \usepackage[colorlinks=true, urlcolor=BlueViolet, pdfborder={0 0 0}]{hyperref}
 \usepackage{hyperref}
-\usepackage{xcolor}
+% \usepackage{xcolor}
+\usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage{booktabs}
 %\usepackage{scrextend}
 \usepackage{ltxtable} % To combine the features of the tabularx environment and the longtable environment (allow publications tablularx to go to more than 1 page)
+\usepackage{scrextend}
+
+% \hypersetup{
+%     colorlinks,
+%     linkcolor={red!50!black},
+%     citecolor={blue!50!black},
+%     urlcolor={blue!80!black}
+% }
 
 \makeatother
 
@@ -62,29 +74,22 @@ Phone: (410) 370-1815 & Boulder, CO 80304
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{0.5ex}
-\subsubsection*{\textsc{Education}}
+\subsubsection*{\textsc{Overview}}
 \vspace{-0.5ex}
 
+% \begin{itemize}
+% \item{Geospatial forest ecologist with expertise in forest dynamics across scales in the western U.S.}
+% \item{Engineers creative solutions that advance the cutting edge of geospatial analytics to study previously intractable questions}
+% \item{Open, collaborative ethos to develop forest and climate change science we can use}
+% \end{itemize}
 \renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
-Ph.D., Ecology; University of California, Davis & 2014 - 2019 \tabularnewline
-\addtolength{\leftskip}{5ex}\emph{Committee:} Andrew Latimer, Malcolm North, Connie Millar &   \tabularnewline
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{6.25in} >{\raggedleft}X@{}}
++ Ecologist and geospatial data scientist with expertise in ecosystem resilience and forest dynamics across scales in the western U.S. &  \tabularnewline
++ Brings an open science ethos to develop accessible forest and climate change science we can use &  \tabularnewline
++ Engineers creative solutions that advance the cutting edge of geospatial analytics to study previously intractable questions &  \tabularnewline
 \end{tabularx}
 
-\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
-M.Sc., Ecology; Colorado State University & 2012 - 2014 \tabularnewline
-\addtolength{\leftskip}{5ex}\emph{Committee:} Ruth Hufbauer, Tom Hobbs, Brett Melbourne & \tabularnewline
-\end{tabularx}
-
-\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
-B.Sc. with highest honors, Biology; University of Hawaii at Hilo & 2007 - 2009 \tabularnewline
-\addtolength{\leftskip}{5ex}\emph{Advisors:} Patrick Hart, Rebecca Ostertag &   \tabularnewline
-\end{tabularx}
-
-\vspace{1ex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection*{\textsc{Professional Experience}}
 \vspace{-0.5ex}
@@ -95,8 +100,19 @@ Research Scientist; Earth Lab/CIRES; University of Colorado Boulder & 2/2021 - p
 Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 - 2021 \tabularnewline
 \end{tabularx}
 
-\vspace{1ex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsubsection*{\textsc{Education}}
+\vspace{-0.5ex}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5.25in} >{\raggedleft}X@{}}
+PhD, Ecology; University of California, Davis & 2014 - 2019 \tabularnewline
+MSc, Ecology; Colorado State University & 2012 - 2014 \tabularnewline
+BSc with highest honors, Biology; University of Hawaii at Hilo & 2007 - 2009 \tabularnewline
+\end{tabularx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Same information, but pitched as fellowships instead of jobs
 %\subsubsection*{\textsc{Fellowships}}
 %\vspace{-0.5ex}
@@ -126,6 +142,79 @@ Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 
 %
 %\vspace{1ex}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{\textsc{Research Highlights}}
+
+\textbf{Koontz, M.J.}, et al. 2021. Cross-scale interaction of host tree size and climatic water deficit governs bark beetle-induced tree mortality. \emph{Nature Communications}. 12: 129. \href{https://doi.org/10.1038/s41467-020-20455-y}{10.1038/s41467-020-20455-y}
+
+\begin{addmargin}[1ex]{0ex}% 1ex left, 0ex right
++ GitHub repository: \href{https://github.com/mikoontz/local-structure-wpb-severity}{mikoontz/local-structure-wpb-severity} \newline
++ Investigated forest disturbance dynamics across scales by developing novel, end-to-end drone workflow to locate, measure, and classify >400,000 trees \newline
++ Set new drone ecology benchmarks with 9 km\textsuperscript{2} of forest sampled and 1.25 TB of data/code shared
+\end{addmargin}
+
+\vspace{1ex}
+
+Balch, J.K., \textbf{M.J. Koontz*}, et al. 2022. Warming weakens the nighttime barrier to global fire. \emph{Nature}. 602. 442-448. \href{https://doi.org/10.1038/s41586-021-04325-1}{10.1038/s41586-021-04325-1} *Equally contributing second author
+
+\begin{addmargin}[1ex]{0ex}% 1ex left, 0ex right
++ GitHub repository: \href{https://github.com/earthlab/warming-weakens-the-nighttime-barrier-to-global-fire}{earthlab/warming-weakens-the-nighttime-barrier-to-global-fire} \newline 
++ Led key geospatial data analytics to link changing wildfire activity and atmospheric conditions at hourly time scales across the western hemisphere, and decadal time scales across the globe \newline 
++ Deployed AWS EC2 instances to process 500GB of active fire data from GOES and MODIS, and 13 million hourly weather measurements from ERA5
+\end{addmargin}
+
+\vspace{1ex}
+
+\textbf{Koontz, M.J.}, et al. 2020. Local forest structure variability increases resilience to wildfire in dry western U.S. coniferous forests. \emph{Ecology Letters}. 23 (3): 483-494. \href{https://doi.org/10.1111/ele.13447}{10.1111/ele.13447} 
+
+\begin{addmargin}[1ex]{0ex}% 1ex left, 0ex right
++ GitHub repository: \href{https://github.com/mikoontz/remote-sensing-resistance}{mikoontz/remote-sensing-resistance} \newline 
++ Engineered creative geospatial analysis to provide ecosystem-wide, empirical support for a key landscape ecology hypothesis \newline 
++ Developed Google Earth Engine workflow to programmatically measure local forest structure variability and fire severity at broad scales using Landsat
+\end{addmargin}
+
+\vspace{1ex}
+
+\textbf{Koontz, M.J.}, et al. 2022. Democratizing macroecology: integrating unoccupied aerial systems with the National Ecological Observatory Network. \emph{Ecosphere}. 
+
+\begin{addmargin}[1ex]{0ex}% 1ex left, 0ex right
++ GitHub repository: \href{https://github.com/mikoontz/neon-drone-workflow}{mikoontz/neon-drone-workflow} \newline 
++ Led a diverse team of experts in creating a mental model for using drones for ecology \newline 
++ Increased accessibility of drone ecology with sample imagery and code for processing drone data and integrating with the National Ecological Observatory Network
+\end{addmargin}
+
+\vspace{1ex}
+
+% \setlength{\LTpre}{0pt}
+% \setlength{\LTpost}{2ex}
+% \setlength{\extrarowheight}{0.25ex}
+% 
+% \LTXtable{\textwidth}{components/publications_highlights.tex}
+
+\vspace{1ex}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{\textsc{Skills and proficiencies}}
+\vspace{-0.5ex}
+
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
+
+\LTXtable{\textwidth}{components/skills-and-proficiencies_industry.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{\textsc{Refereed Publications (complete list)}}
+
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
+
+\LTXtable{\textwidth}{components/publications.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -137,22 +226,6 @@ Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 
 
 \LTXtable{\textwidth}{components/submitted-work.tex}
 
-\vspace{1ex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection*{\textsc{Publications}}
-
-\setlength{\LTpre}{0pt}
-\setlength{\LTpost}{2ex}
-\setlength{\extrarowheight}{0.25ex}
-
-\LTXtable{\textwidth}{components/publications.tex}
-
-\vspace{1ex}
-
-\newpage
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection*{\textsc{Refereed Book Chapters}}
 
@@ -162,33 +235,37 @@ Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 
 
 \LTXtable{\textwidth}{components/book-chapters.tex}
 
-\vspace{1ex}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\newpage
 \subsubsection*{\textsc{Research Grants}}
 \vspace{-0.5ex}
 
-\LTXtable{\textwidth}{components/research-grants.tex}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
 
-\vspace{1ex}
+\LTXtable{\textwidth}{components/research-grants.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection*{\textsc{Open Educational Resources}}
 \vspace{-0.5ex}
 
-\LTXtable{\textwidth}{components/open-education-materials.tex}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
 
-\vspace{1ex}
+\LTXtable{\textwidth}{components/open-education-materials.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection*{\textsc{Teaching Experience}}
 \vspace{-0.5ex}
 
-\LTXtable{\textwidth}{components/teaching-experience.tex}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
 
-\vspace{1ex}
+\LTXtable{\textwidth}{components/teaching-experience.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -197,27 +274,22 @@ Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 
 \subsubsection*{\textsc{Current Collaborations}}
 \vspace{-0.5ex}
 
-\LTXtable{\textwidth}{components/current-collaborations.tex}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
 
-\vspace{1ex}
+\LTXtable{\textwidth}{components/current-collaborations.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection*{\textsc{Invited Talks}}
 \vspace{-0.5ex}
 
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{2ex}
+\setlength{\extrarowheight}{0.25ex}
+
 \LTXtable{\textwidth}{components/invited-talks.tex}
-
-\vspace{1ex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection*{\textsc{Skills and proficiencies}}
-\vspace{-0.5ex}
-
-\LTXtable{\textwidth}{components/skills-and-proficiencies.tex}
-
-\vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

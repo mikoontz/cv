@@ -23,13 +23,24 @@
 \addtolength{\abovecaptionskip}{-3mm}
 \usepackage{hanging}
 \usepackage{babel}
+\usepackage[colorlinks=true, allcolors=black, pdfborder={0 0 0}]{hyperref}
+% \usepackage[colorlinks=true, urlcolor=black, pdfborder={0 0 0}]{hyperref}
+% \usepackage[colorlinks=true, urlcolor=BlueViolet, pdfborder={0 0 0}]{hyperref}
 \usepackage{hyperref}
-\usepackage{xcolor}
+% \usepackage{xcolor}
+\usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage{booktabs}
 %\usepackage{scrextend}
 \usepackage{ltxtable} % To combine the features of the tabularx environment and the longtable environment (allow publications tablularx to go to more than 1 page)
+
+% \hypersetup{
+%     colorlinks,
+%     linkcolor={red!50!black},
+%     citecolor={blue!50!black},
+%     urlcolor={blue!80!black}
+% }
 
 \makeatother
 
@@ -54,6 +65,7 @@ mikoontz@gmail.com & University of Colorado Boulder \tabularnewline
 Phone: (410) 370-1815 & Boulder, CO 80304 
 \end{tabularx}
 
+% \href{https://michaeljkoontz.weebly.com/}{https://michaeljkoontz.weebly.com/}
 \url{https://michaeljkoontz.weebly.com/}
 \end{center}
 \vspace{-1.5em}
@@ -91,6 +103,7 @@ B.Sc. with highest honors, Biology; University of Hawaii at Hilo & 2007 - 2009 \
 
 \renewcommand{\arraystretch}{1.2}
 \begin{tabularx}{\textwidth}{@{}>{\raggedright}p{5in} >{\raggedleft}X@{}}
+Monitoring and Forecasting Lead; Vibrant Planet & 10/2022 - present \tabularnewline
 Research Scientist; Earth Lab/CIRES; University of Colorado Boulder & 2/2021 - present \tabularnewline
 Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 - 2021 \tabularnewline
 \end{tabularx}
@@ -126,6 +139,17 @@ Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 
 %
 %\vspace{1ex}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \subsubsection*{\textsc{COVID-19 Impacts}}
+% 
+% \vspace{-0.5ex}
+% 
+% I am a co-equal parent to a toddler that was 4 months old in March of 2020, when the first stay-at-home orders were implemented in our community.
+% My spouse (who also works full time) and I didn't have childcare support until 2021, and didn't have full-time childcare support until 2022. 
+% Juggling childcare and professional responsiblities required that I disengage from a number of teaching and research opportunities over the past 2.5 years.
+% 
+% \vspace{1ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -150,8 +174,6 @@ Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 
 \LTXtable{\textwidth}{components/publications.tex}
 
 \vspace{1ex}
-
-\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection*{\textsc{Refereed Book Chapters}}
@@ -201,8 +223,6 @@ Postdoctoral Researcher; Earth Lab/CIRES; University of Colorado Boulder & 2019 
 
 \vspace{1ex}
 
-\newpage
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection*{\textsc{Invited Talks}}
@@ -250,7 +270,7 @@ GLORIA Great Basin (\textcolor{blue}{\href{https://www.gloriagreatbasin.org/}{ht
 \addtolength{\leftskip}{5ex}Volunteer & 2013 - present \tabularnewline
 Graduate Group in Ecology Diversity Committee & 2015 - 2019 \tabularnewline
 Manuscript reviewer & \tabularnewline
-\addtolength{\leftskip}{5ex} Environmental Research Letters, Forests, Remote Sensing in Ecology and Conservation, Journal of Theoretical Biology, Ecography, Oikos, Global Ecology and Biogeography & \tabularnewline
+\addtolength{\leftskip}{5ex} Environmental Research Letters, Forests, Remote Sensing in Ecology and Conservation, Journal of Theoretical Biology, Ecography, Oikos, Global Ecology and Biogeography, Landscape Ecology & \tabularnewline
 Software reviewer & \tabularnewline
 \addtolength{\leftskip}{5ex} rOpenSci \texttt{R} packages (\textcolor{blue}{\href{https://github.com/ropensci/onboarding/issues/82}{ccafs}}), Google Earth Engine code (fire severity methodology) & \tabularnewline
 \end{tabularx}
