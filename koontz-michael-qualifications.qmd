@@ -1,0 +1,77 @@
+---
+format: 
+  html:
+    embed-resources: true
+---
+
+## Basic requirement qualifications
+I qualify for the Basic Education Requirement for at least occupational code 0408 with a BSc degree in Biology with a concentration in Ecology, Evolution, and Conservation Biology from the University of Hawaii at Hilo, a MSc in Ecology from Colorado State University, and a PhD in Ecology from the University of California, Davis. The three lists below are non-overlapping, and it is possible that some of the courses listed in the "ecology" category may also be relevant for the "basic and applied biological sciences" category.
+
+**I have over 30 semester hours in basic and applied biological sciences:**
+
+1) BIOL175 + BIOL175L (4 credits) -- Introductory Biology + Lab at University of Hawaii, Hilo
+2) BIOL381 (3 credits) -- Conservation Biology at University of Hawaii, Hilo
+3) BIOL270 + BIOL270L (4 credits) -- Intermediate Cell and Molecular Biology at University of Hawaii, Hilo
+4) BIOL357 + BIOL357L (4 credits) -- Evolution + Lab (taken in different semesters) at University of Hawaii, Hilo
+5) BIOL410 + BIOL410L (5 credits) -- Biochemistry + Lab at University of Hawaii, Hilo
+6) BIOL375 + BIOL375L (4 credits) -- Biology of Microorganisms + Lab at University of Hawaii, Hilo
+7) BIOL466 + BIOL466L (5 credits) -- Genetics + Lab at University of Hawaii, Hilo
+8) PLSCI230 (4 credits) -- Forest Biology at University of Hawaii, Hilo
+
+*Total: 33 semester hours*
+
+**I have over 9 semester hours in ecology:**
+
+1) BIOL281 + BIOL281L (4 credits) -- General Ecology + Lab at University of Hawaii, Hilo
+2) BIOL481 + BIOL481L (5 credits) -- Theory and Methods in Ecology and Evolution at University of Hawaii, Hilo
+3) BIOL443 (3 credits) -- Ecological Animal Physiology at University of Hawaii, Hilo
+4) ECOL505 (2 credits) -- Foundations of Ecology at Colorado State University
+5) ESS575 + ESS575L (4 credits) -- Models for Ecological Data at Colorado State University
+6) FW673 (3 credits) -- Hierarchical Modelling in Ecology at Colorado State University
+7) BZ526 (3 credits) -- Evolutionary Ecology at Colorado State University
+8) ESS660 (3 credits) -- Biogeochemical Cycling in Ecosystems at Colorado State University
+9) ECL200A and ECOLOGY200B (10 credits) -- Principles of Ecology I and II at University of California, Davis
+10) ECL231 (3 credits) -- Mathematical Methods in Population Biology at University of California, Davis
+11) ECL233 (3 credits) -- Computational Methods in Population Biology at University of California, Davis
+12) PBI210 (3 credits) -- Plant Ecophysiology at University of California, Davis
+13) ECL242 (3 credits) -- Ecological Genetics at University of California, Davis
+
+*Total: 49 semester hours*
+
+**I have over 12 semester hours in physical and mathematical sciences:**
+
+1) PHYS170 + PHYS170L (5 credits) -- General Physics I: Particles and Waves at University of Hawaii, Hilo
+2) PHYS171 + PHYS171L (5 credits) -- General Physics II: Electricity and Magnetism at University of Hawaii, Hilo
+3) MATH140 (4 credits) -- Calculus I at University of Maryland, College Park
+4) MATH141 (4 credits) -- Calculus II at University of Maryland, College Park
+5) BIOL380 (3 credits) -- Biostatistics at University of Hawaii, Hilo
+6) STAT511 + STAT512 (8 credits) -- Design and Data Analysis for Researchers I and II at Colorado State University
+
+*Total: 29 semester hours*
+
+## Specialized experience qualifications
+I hold a PhD in ecology as well as the following experience: 1 year and 9.5 months as a postdoctoral researcher with the Earth Lab at the University of Colorado, Boulder (start date: 2019-03-01 at 20% FTE, then 2019-05-01 at 100% FTE; end date: 2021-01-31), 2 years and 2.5 months as a career track Research Scientist at the University of Colorado Boulder (100% FTE from 2021-02-01 to 2022-10-02; 50% FTE from 2022-10-03 to 2023-10-31), 1 year and 7 months as a Lead Scientist at Vibrant Planet PBC (50% FTE from 2022-10-03 to 2023-10-31; 100% FTE from 2023-11-01 to 2024-11-15), and 5 months as a GS-0408-14 Research Ecologist (Fire) with the United States Geological Survey (2024-11-17 to present; 2025-04-25 as of this writing).
+
+This experience is equivalent to 5 years and 11 months at least at the GS-12 grade level, 4 years and 1.5 months at least at the GS-13 grade level, and 1 year and 5 months at least at the GS-14 grade level.
+
+## For GS-13
+I qualify for a GS-13 requirement with over one year of appropriate specialized experience in ecology equivalent to at least the GS-12 level that equipped me with the knowledge, skills and abilities to successfully perform the duties of this position. For example:
+
+1. I planned and coordinated research on fire ecology and the effects of fire on ecosystems by assessing how local forest structure variability affects fire severity in dry western US forests (Koontz et al., 2020. Ecology Letters)
+1. I analyzed and interpreted data to address novel and obscure problems in fire ecology. For instance, I developed a novel geospatial analysis to quantify the fine-scale drivers of California megafires in a forthcoming manuscript.
+1. I contributed to the development of competitive research grants to conduct research in fire ecology. For instance, I contributed ideas and a proposed analytical framework for a grant from the Gordon and Betty Moore Foundation that was awarded and funded the California megafires work.
+1. I performed studies in the field of fire ecology as part of a group. For instance, I led the redevelopment of the analytics for a global fire analysis that linked changes in atmospheric conditions to changes in fire activity on both hourly and decadal time scales as part of a large group of geographers, climatologists, and ecologists as an equally-contributing second author in Balch et al., 2022. Nature.
+1. I have published a number of journal articles in the field of fire ecology (e.g., Koontz et al. 2020. Ecology Letters; Steel et al., 2018. Landscape Ecology; Mahood et al., 2023. Ecology; Balch et al., 2022. Nature; Parks et al., 2019)
+
+## For GS-14
+I qualify for a GS-14 requirement with over one year of appropriate specialized experience in ecology equivalent to at least the GS-13 level. The below examples highlight work that provided wide latitude for the exercise of independent judgment to perform scientific work of marked difficulty and responsibility. 
+
+1. I have led ecological investigations in the areas of fire ecology and related conservation and management. One specific recent investigation involves a novel approach to quantifying fire regime departure across the western US and identifying opportunities for management interventions that would restore more predictable fire regimes. 
+1. I have led the development of competitive research grants to conduct research in fire ecology. I led the development of a large CalFire proposal to refine our understanding of fire regime departure by incorporating fire severity in addition to fire frequency across the western US.
+1. I have led the publication of journal articles in the field of fire ecology. One such example is Koontz et al., 2020, which quantified the influence of local variability in forest structure on fire severity at an ecosystem-wide scale. I am also currently leading two other manuscripts: one on fine-scale drivers of California megafires, and one on patterns of fire regime departure across the western US.
+
+## For GS-15
+I qualify for a GS-15 requirement with over one year of appropriate specialized experience in ecology equivalent to at least the GS-14 level. The below examples highlight work that involved planning and carrying out exceptionally difficult, considerably broad, and complex investigations to advance science on fire ecology related to public safety and stewardship of natural resources, and which addresses management issues at regional, landscape, and national scales. 
+
+1. I have contributed to interdisciplinary research teams and have worked with managers to address issues in fire ecology. For instance at Vibrant Planet, I work with foresters, software engineers, biologists, user experience researchers, hydrologists, and land managers in a cohesive effort to create a common operating picture for reducing the risk of catastrophic fire to ecosystems and society. My role is to operationalize rigorous science and lead new avenues of fire ecology research to ensure that the varied values of multiple land managers can be incorporated into an evidence-based decision support tool for restoring fire regimes.
+1. I've used technical skills in quantitative/statistical analyses to address novel topics in fire ecology. All of my fire ecology work is inherently spatial and requires advanced scientific computing skills to study phenomena at fine resolutions but also across broad extents. My ability to work with broad extent/fine-resolution data allows me to address previously-intractable research questions. For instance, I identified a weak point in the current state-of-the-art approach to quantifying fire severity from satellites, developed a creative approach to addressing that weak point, used cutting-edge geospatial tools to implement that approach, and communicated the implementation to a broader audience by way of a manuscript (currently in internal USGS review). The prototype approach described in the manuscript will be adapted to a scalable, enterprise solution to answering a long-standing, previously intractable question about trends in global fire severity.
